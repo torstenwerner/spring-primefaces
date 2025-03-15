@@ -1,31 +1,14 @@
 # Spring Boot PrimeFaces Demo
 
-This is a demo application showcasing the integration of Spring Boot with PrimeFaces using JoinFaces. The application provides a simple web interface with PrimeFaces components.
+This is a demo application showcasing the integration of Spring Boot with PrimeFaces using JoinFaces.
+The application provides a simple web interface with PrimeFaces components.
 
 ## Technology Stack
 
-- Java 21
-- Spring Boot 3.2.3
-- PrimeFaces 13.0.0 (via JoinFaces 5.2.2)
-- Gradle 8.6
-
-## Project Structure
-
-```
-src/
-├── main/
-│   ├── java/
-│   │   └── com/
-│   │       └── example/
-│   │           └── primefacesdemo/
-│   │               ├── PrimefacesDemoApplication.java
-│   │               └── HelloBean.java
-│   └── resources/
-│       ├── META-INF/
-│       │   └── resources/
-│       │       └── index.xhtml
-│       └── application.properties
-```
+- Java
+- Spring Boot
+- PrimeFaces
+- Gradle
 
 ## Architecture
 
@@ -44,13 +27,12 @@ The application follows a standard JSF web application architecture with Spring 
 ### Prerequisites
 
 - Java 21 JDK installed
-- Gradle installed (or use the included Gradle wrapper)
 
 ### Running the Application
 
 1. Clone this repository:
    ```bash
-   git clone [repository-url]
+   git clone git@github.com:torstenwerner/spring-primefaces.git
    cd spring-primefaces
    ```
 
